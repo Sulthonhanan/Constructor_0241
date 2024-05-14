@@ -17,6 +17,12 @@ public:
 
 	};
 
+	Mahasiswa(int iNim)
+	{
+		nim = iNim
+
+	};
+
 	Mahasiswa(string iNama)
 	{
 		nama = iNama;
@@ -29,12 +35,3 @@ public:
 		nama = INama;
 
 	};
-
-	void cetak() {
-		cout << "NIM = " << nim << endl;
-		cout << "Nama = " << nim << endl;
-		cout << endl;
-	}
-
-
-};
