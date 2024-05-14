@@ -24,3 +24,4 @@ angka::angka(int i) { // Constructor
 
 
 }
+
