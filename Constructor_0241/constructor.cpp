@@ -19,7 +19,7 @@ public:
 
 	Mahasiswa(int iNim)
 	{
-		nim = iNim
+		nim = iNim;
 
 	};
 
