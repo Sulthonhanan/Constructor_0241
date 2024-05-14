@@ -22,6 +22,14 @@ public:
 		nama = iNama;
 	};
 
+	Mahasiswa(int iNim, string INama)
+	{
 
+		nim = iNim;
+		nama = INama;
+
+	};
+
+	
 
 };
