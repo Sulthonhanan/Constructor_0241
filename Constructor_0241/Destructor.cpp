@@ -25,3 +25,12 @@ angka::angka(int i) { // Constructor
 
 }
 
+angka :: ~angka() { //Destructor
+	cout << endl;
+	cetakData();
+	delete[] arr;
+	cout << "Alamat Array sudah dilepaskan" << endl;
+
+
+}
+cout << i << "=" << arr[i] << endl;
