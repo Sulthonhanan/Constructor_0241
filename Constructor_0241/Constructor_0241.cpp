@@ -12,7 +12,32 @@ public:
     int id;
     string nama;
 
+    void setID();
+
+    void printALL();
+
+    mahasiswa(string pnama)
+    {
+        nama = pnama;
+        setID();
+    }
+
 };
+
+int mahasiswa::nim = 241;
+
+void mahasiswa::setID()
+{
+    id = ++nim;
+
+};
+
+
+
+
+
+
+
 int main()
 {
     std::cout << "Hello World!\n";
